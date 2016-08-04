@@ -1,0 +1,46 @@
+##################################################
+## THIS FILE WILL BE EXPANDED/CHANGED OVER TIME ##
+##################################################
+
+All files are named in UpperCamelCase
+Prefixes denote the FileType, followed by an underscore
+
+Prefixes:
+=========
+StaticMesh      - SM_
+SkeletalMesh    - SK_
+Material        - Mat_
+PhysicsMat      - PhysM_
+UI Image        - Img_
+UI Widget       - W_
+Blueprints      - BP_
+DataTable       - DT_  
+SoundCues       - Cue_ 
+SoundEffect     - AS_    #AudioSound
+MusicFile       - AM_    #AudioMusic
+Dialog          - AV_    #AudioVoice
+Particles       - P_
+AnimationBP     - AnimBP_
+Animation       - Anim_
+Blackboard      - BB_
+BehavTree       - BT_
+
+Textures        
+  -Diffuse      - TexD_
+  -Normal       - TexN_
+  -Metallic     - TexM_
+  -Specular     - TexS_
+  -Roughness    - TexR_
+  -Opacity      - TexO_
+  -Mask         - TexOM_
+  -AO           - TexAO_
+
+
+Other Types:
+============
+Enumerations - start with "E"
+Structures   - end with "Struct"
+Curves       - end with "LUT"
+
+Maps/Levels have no Prefix, but _MUST_ALWAYS_ be placed in a "Maps" folder!
+
